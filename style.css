@@ -75,6 +75,44 @@ a {
     font-size: 32px;
     margin-top: -10px;
 }
+.home-info h3 {
+  white-space: nowrap;       /* Keep all text in one line */
+  overflow: hidden;
+  font-size: 28px;
+  margin-top: 10px;
+}
+
+.home-info h3 span {
+  display: inline-block;
+  color: transparent;
+  -webkit-text-stroke: 0.7px rgb(32, 218, 91);
+  animation: display-text 9s linear infinite; 
+}
+.home-info h3 span:nth-child(1) {
+  animation-delay: 0s;       
+}
+.home-info h3 span:nth-child(2) {
+  animation-delay: 3s;       
+}
+.home-info h3 span:nth-child(3) {
+  animation-delay: 6s;       
+}
+
+@keyframes display-text {
+  0%, 25%, 100% { color: transparent; }
+  10%, 20% { color: red; }
+}
+.home-info .hh {
+    font-size: 32px;
+    color: royalblue;
+    margin-top: -10px;
+}
+
+.home-info h3 .highlight {
+    color: rgb(247, 179, 8);
+    font-weight: bold;
+    margin-left: 20px;
+}
 
 .home-info .highlight {
     color: rgb(23, 196, 49);
