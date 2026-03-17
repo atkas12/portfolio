@@ -1,0 +1,27 @@
+body{
+    background-image: url(beautiful-shot-tower-bridge-london.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    margin: 0;
+   
+}
+#main{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 50vh;
+}
+#clock{
+margin-top: 20px; 
+margin-left: 50px;
+text-align: center;
+ justify-content: center; 
+font-family: monospace;
+font-size: 60px;
+backdrop-filter: blur(15px);
+/* background-color: aquamarine; */
+color: rgb(66, 7, 244);
+
+}
