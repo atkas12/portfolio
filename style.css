@@ -22,7 +22,7 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    z-index: 100;
+    /* z-index: 100; */
     background: slateblue;
 }
 .navbar .logo {
@@ -77,37 +77,11 @@ a {
   -webkit-text-stroke: 0.7px goldenrod;
 
 }
-/* .home-info h3 span:nth-child(1) {
-  animation-delay: 0s;       
-}
-.home-info h3 span:nth-child(2) {
-  animation-delay: 3s;       
-}
-.home-info h3 span:nth-child(3) {
-  animation-delay: 6s;       
-} */
-
-/* @keyframes display-text {
-  0%, 25%, 100% { color: transparent; }
-  10%, 20% { color: red; }
-} */
 .home-info .hh {
     font-size: 32px;
     color: royalblue;
     margin-top: -10px;
 }
-
-.home-info h3 .highlight {
-    color: rgb(223, 155, 27);
-    font-weight: bold;
-    margin-left: 20px;
-}
-
-.home-info .highlight {
-    color: rgb(23, 196, 49);
-    font-weight: bold;
-}
-
 .home-info p {
     font-size: 16px;
     margin: 10px 0 25px;
