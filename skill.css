@@ -1,0 +1,33 @@
+/* Skills Section */
+.skills {
+    padding: 60px 10%;
+    background: #1f242d;
+    text-align: center;
+}
+
+.skills h2 {
+    font-size: 32px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.skill-box {
+    background: #2a2f3a;
+    color: #fff;
+    padding: 15px 25px;
+    border-radius: 10px;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.skill-box:hover {
+    background: #00abf0;
+    transform: scale(1.1);
+}
